@@ -1,0 +1,156 @@
+Bahan Website
+
+# 01 Header
+
+	src gambar kanan copy paste: images/header/header1.png 
+    (boleh pakai header1.png header2.png sampai header6.png)
+
+    <h1> Judul header:
+    Kopi Kuy (ada icon kopi)
+    src icon kopi = images/icon/icon_kopi.svg
+
+    tulisan <p> pertama header :
+    Kopi Kuy merupakan sebuah startup kopi retail yang ingin menyajikan 
+    high quality Coffee untuk para pelanggannya.
+
+    tulisan <p> kedua header :
+    Dapat dibeli melalui
+
+    src pada <img> di dalam <div class="olshop"> copy logo berikut:
+        images/logo/logo_bukalapak.png
+        images/logo/logo_shopee.png
+        images/logo/logo_tokopedia.png
+
+# 02 Best Seller
+
+    Judul <h2>: 
+    Menu Andalan Kami
+    
+    Isi tulisan <p>:
+    Nikmati menu andalan yang menjadi favorit customer Kami
+
+    untuk produk:
+
+    <img> src = images/produk/product_capuchino.jpg
+    isi <p> = Cappuchino
+
+    <img> src = images/produk/product_espresso.jpg
+    isi <p> = Espresso
+
+    <img> src images/produk/product_kopi_susu.jpg
+    isi <p> Kopi Susu
+
+    <img> src images/produk/product_latte.jpg
+    isi <p> Cafe Latte
+
+# 03 About Us
+
+    Isi tulisan <h2> :
+    Gak Ngopi Gak Kuy!
+    
+    isi <p> tentang-about-us:
+    Didirikan pada 2017, Kopi Kuy merupakan sebuah startup kopi retail 
+    yang ingin menyajikan kopi dengan kualitas tinggi untuk para pelanggannya. 
+    Nama Kuy yang diambil dari "yuk" yang merupakan harapan kami untuk mengajak semua 
+    yang terlibat dalam bisnis kami untuk bersama-sama menikmati sajian kopi yang berkualitas.
+
+    <img> src gambar:
+	images/about-us/aset_kopi_jumbo.png
+    (src images boleh apa saja di dalam folder images/about-us/)
+
+    isi <p> penjelasan-about-us:
+    Kopi yang kami jual, hanya dari petani terpilih, dan berkualitas tinggi diproses 
+    secara sempurna dan diteruskan oleh para barista handal, yang penuh semangat 
+    dalam menyiapkan segelas kebahagiaan spesial untuk anda
+
+# 04 Our Team
+
+    isi <h2> judul-team: 
+    Our Team
+    
+    isi <p> subjudul-team:
+    Kami berinvestasi dalam rasa - mulai dari pemilihan biji, metode pemanggangan, 
+    hingga barista dengan sertifikat internasional.
+
+    Untuk Isi div team:
+        <img> src = images/team/team1.jpg
+        isi <h3> = Riki Steven
+        isi <p> = Founder Kopi Kuy
+
+        <img> src = images/team/team2.jpg
+        isi <h3> = Andi Asraf
+        isi <p> = Head of Marketing
+
+        <img> src = images/team/team3.jpg
+        isi <h3> = Angelina Felly
+        isi <p> = Barista
+
+        <img> src = images/team/team4.jpg
+        isi <h3> = Sarah Chou
+        isi <p> = Barista
+
+# 05 Review
+
+    isi <h2> review:
+    Apa Kata Mereka
+
+    isi <p> subjudul-review:
+    Kami berikan fakta dan data, karena kepuasan konsumen selalu nomor 1 untuk kami.
+
+    isi Testimoni:
+    img src = images/customer/customer1.jpg
+    profile 
+        h3 = Benny Oktavian
+        p = Mahasiswa 
+        isi testimoni = 
+        "Perdana kesini langsung merasa cocok dari segi tempat dan rasa. 
+        Baristanya ramah dan pelayanannya maksimal, tidak sungkan bertanya keinginan pengunjung."
+
+    img src = images/customer/customer2.jpg
+    profile 
+        h3 = Rena Oktaviana
+        p = Karyawan Swasta 
+        testimoni = 
+        "Asik buat santai sm tmn2, tempatnya nyaman dan yg bikin seru banyak game2nya 
+        yg bs dimainkan bareng tmn2 atau saudara, menunya enak2, pokoknya recomend 
+        banget deh tempatnya wajib coba guys!!! Pelayanannya ramah banget 🤗."
+    
+    img src = images/customer/customer2.jpg
+    profile 
+        h3 = Bagas Renaldo
+        p = Dosen
+        testimoni = 
+        "Tempat nya nyaman sekali pasti kalo kalian dateng betah ... 
+        selain tempat yang nyaman lalu pelayanan nya good banget... 
+        dan kalian yang datang ke kopi kuy jangan lewatkan permainan yang disediakan 
+        oleh kopi kuy , banyak banget game nya!"
+
+# 06 Contact Us
+
+    ganti kode <iframe> dengan kode berikut:
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7932.741866032694!2d106.668581!3d-6.214715!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f9912c7f297b%3A0xe5a3a671dae861ab!2sKopi%20kuy!5e0!3m2!1sid!2sid!4v1680617229460!5m2!1sid!2sid"
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    Data Kontak:
+    Telp: +62 (812) 9046 5034   | images/icon/icon_phone.png
+    Email: hello@kopikuy.com    | images/icon/icon_mail.png
+    Instagram: @kopi.kuy        | images/icon/icon_instagram.png
+
+# Footer berisi:
+
+    Navigasi a dengan href #:
+    isi element a = Best Seller
+    isi href = #best-seller
+
+    isi element a = Our Team
+    isi href = #our-team
+
+    isi element a = Review
+    isi href = #review
+
+    isi element a = Contact Us
+    isi href = #contact-us
+
+    isi <p> :
+    Copyright kopi kuy: © 2024 Kopi Kuy. All Rights Reserved
+    
